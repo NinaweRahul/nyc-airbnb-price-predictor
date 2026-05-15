@@ -5,7 +5,6 @@ prices in New York City. Built to demonstrate a complete ML pipeline --
 from raw data to model evaluation -- following the project structure from 
 Hands-On Machine Learning (Aurélien Géron, Chapter 2).
 
----
 
 ## Overview
 
@@ -17,7 +16,6 @@ data exploration, preprocessing pipelines, model selection,
 hyperparameter tuning, and feature importance analysis -- using 
 48,000+ real NYC Airbnb listings from 2019.
 
----
 
 ## Key Findings
 
@@ -30,7 +28,6 @@ hyperparameter tuning, and feature importance analysis -- using
   from unstructured signals (photos, host reputation, amenities) not 
   captured in structured data alone
 
----
 
 ## Results
 
@@ -43,7 +40,6 @@ hyperparameter tuning, and feature importance analysis -- using
 
 *RMSE on log-transformed price. Final test RMSE: 0.4001*
 
----
 
 ## Project Structure
 
@@ -55,7 +51,6 @@ nyc-airbnb-price-predictor/
 └── README.md
 
 
----
 
 ## How to Run
 
@@ -81,7 +76,6 @@ jupyter notebook nyc_airbnb_price_predictor.ipynb
 Run all cells top to bottom. The trained model will be saved 
 to `models/airbnb_price_predictor.pkl`.
 
----
 
 ## Tech Stack
 
@@ -89,7 +83,6 @@ to `models/airbnb_price_predictor.pkl`.
 - **Scikit-learn** -- Pipeline, ColumnTransformer, RandomForestRegressor, GridSearchCV
 - **Jupyter Notebook**
 
----
 
 ## ML Pipeline Steps
 
@@ -103,6 +96,5 @@ to `models/airbnb_price_predictor.pkl`.
 6. Feature importance analysis -- top 15 predictors visualized
 
 ---
-
 *Dataset: [NYC Airbnb Open Data 2019](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) 
 via Kaggle*
