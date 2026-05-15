@@ -1,0 +1,6 @@
+﻿data/
+models/
+*.csv
+*.pkl
+.gitignoregit
+.ipynb_checkpoints/
