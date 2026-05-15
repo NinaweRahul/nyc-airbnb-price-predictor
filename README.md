@@ -43,13 +43,14 @@ hyperparameter tuning, and feature importance analysis -- using
 
 ## Project Structure
 
+```
 nyc-airbnb-price-predictor/
 │
-├── nyc_airbnb_price_predictor.ipynb  ← full pipeline notebook
-├── data/                             ← not tracked (see below)
-├── models/                           ← not tracked (see below)
+├── nyc_airbnb_price_predictor.ipynb
+├── data/                             
+├── models/                           
 └── README.md
-
+```
 
 
 ## How to Run
